@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.venv
+.venv/
+*.log
+*.db
+*.sqlite3
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+
+# Tkinter
+*.pyi
+
+# Archivos temporales
+*~
