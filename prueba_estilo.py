@@ -333,7 +333,7 @@ class TypingTutorApp:
         return text.strip()
 
     def get_words_from_text(self, text):
-        return re.findall(r'\b[a-zA-Z0-9]+\b', text)
+        return re.findall(r'\b\w+\b', text, re.UNICODE)
 
     def load_text(self):
         self.source_text = self.paste_text_area.get("1.0", tk.END).strip()
